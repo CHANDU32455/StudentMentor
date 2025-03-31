@@ -1,0 +1,30 @@
+<!-- res/navigation/nav_graph.xml -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.nbkr.studentmentor.HomeFragment"
+        android:label="Home" />
+
+    <!-- Match Fragment -->
+    <fragment
+        android:id="@+id/nav_match"
+        android:name="com.nbkr.studentmentor.MatchFragment"
+        android:label="Match" />
+
+    <!-- Schedule Fragment -->
+    <fragment
+        android:id="@+id/nav_schedule"
+        android:name="com.nbkr.studentmentor.ScheduleFragment"
+        android:label="Schedule" />
+
+    <!-- Profile Fragment -->
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.nbkr.studentmentor.ProfileFragment"
+        android:label="Profile" />
+</navigation>
